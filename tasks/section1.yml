@@ -620,7 +620,7 @@
     - patch
     - rule_1.4.2
 
-- name: "NOTSCORED | 1.4.3 | PATCH | Ensure authentication required for single user mode"
+- name: "SCORED | 1.4.3 | PATCH | Ensure authentication required for single user mode"
   shell: "set -o pipefail;
           if [ '{{ ubuntu1804cis_root_password }}' == 'random' ];
           then PASSWORD=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c24); else PASSWORD='{{ ubuntu1804cis_root_password }}';
