@@ -1,0 +1,23 @@
+INSTALL ANSIBLE
+
+sudo apt-get update && sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update && sudo apt-get install ansible
+
+
+Download Role From GitHub
+git clone https://github.com/ roles/ubuntu-18.04
+
+CREATE PLAYBOOK
+
+cat >>  playbook.yml << 'EOF'
+---
+- hosts: all
+  roles:
+    - ubuntu-18.04-cis-benchmark-for-ansible
+EOF
+
+RUN PLAYBOOK 
+
+sudo ansible-playbook -b -i "localhost," -c local playbook.yml
+
