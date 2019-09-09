@@ -6,7 +6,7 @@ sudo apt-get update && sudo apt-get install ansible
 
 
 Download Role From GitHub
-git clone https://github.com/ roles/ubuntu-18.04
+git clone https://github.com/misiec/Ubuntu1804-CIS roles/ubuntu-18.04
 
 CREATE PLAYBOOK
 
