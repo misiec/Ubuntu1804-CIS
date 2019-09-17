@@ -14,7 +14,7 @@ cat >>  playbook.yml << 'EOF'
 ---
 - hosts: all
   roles:
-    - ubuntu-18.04-cis-benchmark-for-ansible
+    - ubuntu-18.04
 EOF
 
 RUN PLAYBOOK 
