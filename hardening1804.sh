@@ -8,4 +8,4 @@ echo '---
 - hosts: all
   roles:
     - ubuntu-18.04' >/etc/playbook.yml
-sudo ansible-playbook -b -i "localhost," -c local /etc/playbook.yml
+sudo ansible-playbook -b -i "localhost," -c local /etc/playbook.yml >> ansible_report
