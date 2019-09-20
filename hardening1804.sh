@@ -5,8 +5,4 @@ sudo apt-get update
 sudo apt-get install ansible
 sudo apt-get install git
 sudo git clone https://github.com/misiec/Ubuntu1804-CIS /etc/roles/ubuntu-18.04
-echo '---
-- hosts: all
-  roles:
-    - ubuntu-18.04' >/etc/playbook.yml
-sudo ansible-playbook -b -i "localhost," -c local /etc/playbook.yml >> ansible_report
+sudo ansible-playbook -b -i "localhost," -c local /etc/roles/playbook.yml >> ansible_report
