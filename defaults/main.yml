@@ -391,7 +391,7 @@ ubuntu1804cis_pwquality:
     value: '-1'
 
 ubuntu1804cis_pass:
-  max_days: 365
+  max_days: 90
   min_days: 7
   warn_age: 7
 
