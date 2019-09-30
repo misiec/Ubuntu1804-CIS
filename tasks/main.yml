@@ -8,7 +8,7 @@
       - not ansible_distribution_release == "bionic"
   
   tags:
-      - always1
+      - always
 
 - name: Check ansible version
   fail:
