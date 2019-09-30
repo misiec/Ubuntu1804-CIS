@@ -22,7 +22,7 @@
   systemd:
       name: tmp.mount
       daemon_reload: true
-      enabled: true
+      enabled: false
       masked: false
       state: reloaded
   when: ansible_virtualization_type != "docker"
