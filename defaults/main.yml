@@ -72,7 +72,7 @@ ubuntu1804cis_rule_1_7_1_4: true
 ubuntu1804cis_rule_1_7_1_5: true
 ubuntu1804cis_rule_1_7_1_6: true
 ubuntu1804cis_rule_1_7_2: true
-ubuntu1804cis_rule_1_7_2: false
+ubuntu1804cis_rule_1_8: false
 
 # Section 2 rules
 ubuntu1804cis_rule_2_1_1: true
