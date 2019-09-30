@@ -6,6 +6,7 @@
   when:
       - not ansible_distribution == "Ubuntu"
       - not ansible_distribution_release == "bionic"
+      - not ansible_distribution_release == "Mint"
   tags:
       - always
 
